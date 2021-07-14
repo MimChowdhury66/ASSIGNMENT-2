@@ -8,6 +8,9 @@ body{
     font-family: 'Poppins', sans-serif;
    
 }
+#menu{
+    display: block;
+}
 nav a{
     /* font-family: 'Poppins', sans-serif; */
     /* padding: 0px;
@@ -49,6 +52,8 @@ nav {
     color: #FFFFFF;
 }
 
+
+
 /* page1 style */
 .half-width h1{
     font-weight: bold;
@@ -57,6 +62,7 @@ nav {
     width: 485px;
     height: 230px;
    margin-left: 145px;
+  
 }
 .half-width a{
     text-decoration: none;
@@ -64,12 +70,22 @@ nav {
     color: #FFFFFF;
     font-size: 16px;
     margin-left: 156px;
+    margin-top: px;
     
     /* margin: 10px;
     padding: 0px; */
 }
-
-
+.flexible-container{
+    display: flex;
+    flex-direction: row;
+}
+.half-width img{
+    width: 556.01px;
+    height: 438px;
+    margin-left: 108px;
+    margin-top: 70px;
+    
+}
 
 
 
@@ -90,5 +106,17 @@ nav {
     nav a{
         align-items: center;
         margin-bottom: 5px;
+    }
+    .flexible-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+        width: 100%;
+
+    }
+    #menu{
+        display: none;
     }
 }
