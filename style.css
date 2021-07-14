@@ -87,11 +87,11 @@ nav {
     margin-top: 70px;
     
 }
-.zoom-in{
+.zoom-in, .matchpic{
     transform: scale(1);
     transition: 0.3s ease-in;
 }
-.zoom-in:hover{
+.zoom-in, .matchpic:hover{
     transform: scale(1.2);
 }
 
@@ -104,6 +104,7 @@ nav {
     box-sizing: border-box;
     margin-left: 80px;
     margin-bottom: 70px;
+    margin-top: -60px;
     
     }
 .cards{
@@ -120,11 +121,6 @@ width: 330px;
 height: 474px;
 margin: 27px;
 overflow: hidden;
-
-
-
-
-
 
 }
 .card img{
@@ -148,6 +144,54 @@ margin: 16px;
     margin: 16px 6px;
 }
 
+
+/*---------- login design ============*/
+.login-container{
+    display: flex;
+    justify-content: center;
+    margin-top: -90px;
+    
+}
+.login-form{
+    font-weight: bold;
+    font-size: 25px;
+    color: #0A0826;
+    display: flex;
+    flex-direction: column;
+
+}
+.login-form input{
+    font-size: 19px;
+    margin-top: 15px;
+    border: 1px solid lightcoral;
+    padding-left: 10px;
+    border-radius: 7px;
+}
+.login-form button{
+    background-color: orangered;
+    color: whitesmoke;
+    padding: 5px;
+    font-size: 12px;
+    margin-top: 15px;
+    border: 1px solid lightcoral;
+    padding-left: 10px;
+    border-radius: 7px;
+}
+.matchpic img{
+    width: 556.01px;
+    height: 438px;
+    margin: 30px;
+    
+    margin-left: 400px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    /* align-content: center; */
+    justify-content: center;
+    align-items: center;
+}
+    
+}
 
 
 
@@ -221,6 +265,28 @@ margin: 16px;
     .card h1{
         font-weight: bold;
         font-size: 28px;
+    }
+    .login-form {
+        font-weight: bold;
+        font-size: 15px;
+        color: #0A0826;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .matchpic img {
+        width: 556.01px;
+        height: 438px;
+        margin: 30px;
+        /* margin-left: 400px; */
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
     }
 
 }
