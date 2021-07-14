@@ -178,6 +178,7 @@ margin: 16px;
     border-radius: 7px;
 }
 .matchpic img{
+    border-radius: 30px;
     width: 556.01px;
     height: 438px;
     margin: 30px;
@@ -190,7 +191,21 @@ margin: 16px;
     justify-content: center;
     align-items: center;
 }
-    
+    .football{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        /* width: 483.87px;
+height: 204px; */
+        
+    }
+.football img{
+    /* position: static; */
+    width: 483.87px;
+    height: 110px;
+    margin: 20px 0px;
 }
 
 
@@ -277,6 +292,8 @@ margin: 16px;
         align-items: center;
     }
     .matchpic img {
+        
+       
         width: 556.01px;
         height: 438px;
         margin: 30px;
@@ -287,6 +304,9 @@ margin: 16px;
         align-content: center;
         justify-content: center;
         align-items: center;
+        
     }
+    
+   
 
 }
